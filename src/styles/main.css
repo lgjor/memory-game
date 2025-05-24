@@ -96,27 +96,27 @@ h2 {
 
 @media (max-width: 600px) {
     .container {
-        padding: 20px;
-        gap: 20px;
+        padding: 10px; /* Reduz o padding */
+        gap: 10px; /* Reduz o gap */
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 1.5em; /* Reduz o tamanho da fonte */
     }
 
     .game {
-        width: 320px;
-        height: 320px;
+        width: 280px; /* Reduz o tamanho do tabuleiro */
+        height: 280px; /* Reduz o tamanho do tabuleiro */
     }
 
     .item {
-        width: 70px;
-        height: 70px;
-        font-size: 2em;
+        width: 60px; /* Reduz o tamanho dos itens */
+        height: 60px; /* Reduz o tamanho dos itens */
+        font-size: 1.5em; /* Reduz o tamanho da fonte */
     }
 
     .reset {
-        padding: 10px 15px;
-        font-size: 1.2em;
+        padding: 8px 12px; /* Reduz o padding */
+        font-size: 1em; /* Reduz o tamanho da fonte */
     }
 }
