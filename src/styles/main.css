@@ -91,3 +91,32 @@ h2 {
 .boxMatch::after {
     transform: rotateY(180deg);
 }
+
+/* Responsividade básica pra celular */
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .game {
+        width: 320px;
+        height: 320px;
+    }
+
+    .item {
+        width: 70px;
+        height: 70px;
+        font-size: 2em;
+    }
+
+    .reset {
+        padding: 10px 15px;
+        font-size: 1.2em;
+    }
+}
