@@ -2,4 +2,27 @@
 
 Esse projeto utilizar HTML,CSS e Javascript com o objetivo de criar um jogo da memória com o teclado de emojis do Windows.
 
-Explora bastante a estilização CSS e os eventos Javascript.
+Explora a estilização CSS e os eventos Javascript, com a manipulação da DOM.
+
+## Features Implementadas
+
+### **Lógica do Jogo:**
+
+- Embaralhamento aleatório dos emojis no início de cada jogo.
+- Mecânica de clique para revelar os emojis.
+- Verificação de correspondência entre os emojis revelados.
+- Contador de movimentos para acompanhar o progresso do jogador.
+
+### **Feedback Visual e Sonoro**
+
+- Efeitos visuais ao abrir e combinar cartas.
+- Efeitos sonoros para ações como abrir cartas, encontrar pares e vencer o jogo.
+
+### **Popup de Vitória**
+
+- Exibe uma mensagem de parabéns e o número de movimentos quando o jogo é concluído.
+
+### **Reinicialização**
+
+- Botão para reiniciar o jogo a qualquer momento.
+  

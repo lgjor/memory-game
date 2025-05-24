@@ -12,6 +12,16 @@
         <div class="game"></div>
         <button class="reset" onclick="window.location.reload()">RESET GAME</button>
     </div>
+    <div id="winPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <h2>Parabéns!</h2>
+            <span class="emoji">🥰🥳😻🏆✨🎉</span>
+            <p>Você venceu o jogo da memória</p>
+            <p>com um total de <span id="moves"></span> jogadas!</p>
+            <button id="restartButton">Jogar Novamente</button>
+        </div>
+    </div>
     <script src="src/scripts/engine.js" defer></script>
 </body>
 </html>

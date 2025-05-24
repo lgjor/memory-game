@@ -13,6 +13,7 @@ const emojis = [
     "🐯",
 ];
 let openCards = [];
+let moves = 0;
 
 let shuffleEmojis = emojis.sort(()=> (Math.random() > 0.5 ? 2 : -1));
 
@@ -28,6 +29,8 @@ for (let i = 0; i < shuffleEmojis.length; i++) {
 function handleClick() {
     if (openCards.length < 2) {
         this.classList.add("boxOpen");
+        playSound("swipe-card");
+        moves++;
         openCards.push(this);
     }
 
@@ -40,6 +43,7 @@ function handleClick() {
 // If they match, add a class to keep them open
 function checkMatch() {
     if (openCards[0].innerHTML === openCards[1].innerHTML) {
+        playSound("coin-flip");
         openCards[0].classList.add("boxMatch");
         openCards[1].classList.add("boxMatch");
     } else {
@@ -50,9 +54,29 @@ function checkMatch() {
 
     if (document.querySelectorAll(".boxMatch").length === emojis.length) {
         setTimeout(() => {
-            alert("You win!");
-            location.reload();
+            playSound("win");
+            document.getElementById("moves").innerText = moves;
+            document.getElementById("winPopup").style.display = "block";
         }, 500);
     }
+}
+
+// Function to restart the game
+document.getElementById("restartButton").addEventListener("click", function() {
+    location.reload();
+});
+
+// Function to close the win popup
+document.querySelector(".close-button").addEventListener("click", function() {
+    document.getElementById("winPopup").style.display = "none";
+});
+
+// Function to play sound effects
+function playSound(audioName){
+    const audio = new Audio(`./src/audios/${audioName}.mp3`);
+    audio.volume = 1;
+    audio.play().catch((error) => {
+        console.error(`Failed to play sound ${audioName}:`, error);
+    });
 }
 
