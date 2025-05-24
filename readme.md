@@ -1,5 +1,7 @@
 # Jogo da memória
 
+<img src=".github/preview.jpg" width="100%" alt="Jogo da memória com emojis animais">
+
 Esse projeto utiliza HTML, CSS e Javascript para criar um jogo da memória com emojis.
 
 Explora a estilização CSS e os eventos Javascript, com a manipulação da DOM.
