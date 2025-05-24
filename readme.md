@@ -1,8 +1,12 @@
 # Jogo da memória
 
-Esse projeto utilizar HTML,CSS e Javascript com o objetivo de criar um jogo da memória com o teclado de emojis do Windows.
+Esse projeto utiliza HTML, CSS e Javascript para criar um jogo da memória com emojis.
 
 Explora a estilização CSS e os eventos Javascript, com a manipulação da DOM.
+
+## Como jogar
+
+Acesse e teste agora mesmo: 
 
 ## Features Implementadas
 
