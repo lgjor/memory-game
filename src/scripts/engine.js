@@ -73,7 +73,7 @@ document.querySelector(".close-button").addEventListener("click", function() {
 
 // Function to play sound effects
 function playSound(audioName){
-    const audio = new Audio(`./src/audios/${audioName}.mp3`);
+    const audio = new Audio(`https://raw.githubusercontent.com/lgjor/memory-game/main/src/audios/${audioName}.mp3`);
     audio.volume = 1;
     audio.play().catch((error) => {
         console.error(`Failed to play sound ${audioName}:`, error);
