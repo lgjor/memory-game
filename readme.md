@@ -6,7 +6,7 @@ Explora a estilização CSS e os eventos Javascript, com a manipulação da DOM.
 
 ## Como jogar
 
-Acesse e teste agora mesmo: 
+Jogue agora mesmo e divirta-se: [https://lgjor.github.io/memory-game/](https://lgjor.github.io/memory-game/)
 
 ## Features Implementadas
 
