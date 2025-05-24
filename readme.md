@@ -1,6 +1,6 @@
 # Jogo da memória
 
-<img src=".github/preview.jpg" width="50%" alt="Jogo da memória com emojis animais">
+<img src=".github/preview.jpg" alt="Jogo da memória com emojis animais">
 
 Esse projeto utiliza HTML, CSS e Javascript para criar um jogo da memória com emojis.
 
